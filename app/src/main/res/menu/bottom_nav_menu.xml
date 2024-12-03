@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Beranda" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_tabel"-->
+<!--        android:icon="@drawable/ic_table"-->
+<!--        android:title="Tabel" />-->
+    <item
+        android:id="@+id/navigation_publikasi"
+        android:icon="@drawable/ic_publication"
+        android:title="Publikasi" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_berita"-->
+<!--        android:icon="@drawable/ic_news"-->
+<!--        android:title="Berita" />-->
+    <item
+        android:id="@+id/navigation_login"
+        android:icon="@drawable/ic_login"
+        android:title="Admin" />
+</menu>

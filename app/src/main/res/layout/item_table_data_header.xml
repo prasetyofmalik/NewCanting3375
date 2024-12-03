@@ -1,0 +1,133 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:background="@drawable/border">
+
+    <TextView
+        android:id="@+id/header_city"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="9 Kota SBH"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/header_januari" />
+
+    <TextView
+        android:id="@+id/header_januari"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Januari"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_city"
+        app:layout_constraintEnd_toStartOf="@id/header_februari" />
+
+    <TextView
+        android:id="@+id/header_februari"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Februari"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_januari"
+        app:layout_constraintEnd_toStartOf="@id/header_maret" />
+
+    <TextView
+        android:id="@+id/header_maret"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Maret"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_februari"
+        app:layout_constraintEnd_toStartOf="@id/header_april" />
+
+    <TextView
+        android:id="@+id/header_april"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="April"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_maret"
+        app:layout_constraintEnd_toStartOf="@id/header_mei" />
+
+    <TextView
+        android:id="@+id/header_mei"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Mei"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_april"
+        app:layout_constraintEnd_toStartOf="@id/header_juni" />
+
+    <TextView
+        android:id="@+id/header_juni"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Juni"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_mei"
+        app:layout_constraintEnd_toStartOf="@id/header_juli" />
+
+    <TextView
+        android:id="@+id/header_juli"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Juli"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_juni"
+        app:layout_constraintEnd_toStartOf="@id/header_agustus" />
+
+    <TextView
+        android:id="@+id/header_agustus"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Agustus"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_juli" />
+</androidx.constraintlayout.widget.ConstraintLayout>
