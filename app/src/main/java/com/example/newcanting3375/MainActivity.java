@@ -36,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.navigation_publikasi:
                         selectedFragment = new PublikasiFragment();
                         break;
-                    case R.id.navigation_login:
-                        selectedFragment = new LoginFragment();
-                        break;
                 }
 
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();

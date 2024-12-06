@@ -69,34 +69,79 @@ public class HomeFragment extends Fragment {
         indicatorList.add(new Indicator(
                 R.drawable.ic_inflasi,
                 "Inflasi",
-                "0.19 persen",
-                "Inflasi Oktober 2024 naik dibandingkan September 2024"
+                "",
+                ""
+//                "0.19 persen",
+//                "Inflasi Oktober 2024 naik dibandingkan September 2024"
+        ));
+        indicatorList.add(new Indicator(
+                R.drawable.ic_konstruksi,
+                "Indeks Kemahalan Konstruksi/IKK",
+                "",
+                ""
         ));
         indicatorList.add(new Indicator(
                 R.drawable.ic_petani,
-                "Nilai Tukar Petani / NTP",
-                "113.54",
-                "Nilai Tukar Petani / NTP Oktober 2024 turun -0.23 % dibandingkan September 2024"
+                "Nilai Tukar Petani/NTP",
+                "",
+                ""
+//                "113.54",
+//                "Nilai Tukar Petani / NTP Oktober 2024 turun -0.23 % dibandingkan September 2024"
         ));
-        // Tambahkan data indikator lainnya di sini
+        indicatorList.add(new Indicator(
+                R.drawable.ic_ekonomi,
+                "Pertumbuhan Ekonomi",
+                "",
+                ""
+        ));
+        indicatorList.add(new Indicator(
+                R.drawable.ic_kemiskinan,
+                "Kemiskinan",
+                "",
+                ""
+        ));
+        indicatorList.add(new Indicator(
+                R.drawable.ic_pengangguran,
+                "Tingkat Pengangguran Terbuka/TPT",
+                "",
+                ""
+        ));
+        indicatorList.add(new Indicator(
+                R.drawable.ic_pembangunan,
+                "Indeks Pembangunan Manusia/IPM",
+                "",
+                ""
+        ));
     }
 
     private List<String> getTableListByIndicator(String indicatorTitle) {
         List<String> tableList = new ArrayList<>();
         switch (indicatorTitle) {
             case "Inflasi":
-                tableList.add("Inflasi Jawa Tengah");
-                tableList.add("Inflasi Menurut Kelompok");
-                tableList.add("Komoditas Penyumbang Inflasi");
                 tableList.add("Inflasi 9 Kota");
-                tableList.add("Inflasi Ibu Kota Provinsi");
+                tableList.add("IHK 9 Kota");
                 break;
-            case "Nilai Tukar Petani / NTP":
+            case "Indeks Kemahalan Konstruksi/IKK":
+                tableList.add("IKK Kota Pekalongan");
+            case "Nilai Tukar Petani/NTP":
                 tableList.add("NTP Provinsi");
-                tableList.add("Komoditas Penyumbang NTP");
-                tableList.add("NTP Provinsi di Pulau Jawa");
-                tableList.add("NTUP");
-                tableList.add("Series NTP dan NTUP");
+            case "Pertumbuhan Ekonomi":
+                tableList.add("PDRB Kota Pekalongan");
+                tableList.add("Distribusi LU");
+                tableList.add("Distribusi E");
+                tableList.add("LPE E");
+                tableList.add("LPE LU");
+            case "Kemiskinan":
+                tableList.add("Kemiskinan Kota Pekalongan");
+                tableList.add("Indeks Kedalaman Kemiskinan");
+                tableList.add("Indeks Keparahan Kemiskinan");
+                tableList.add("Distribusi Pengeluaran");
+            case "Tingkat Pengangguran Terbuka/TPT":
+                tableList.add("TPT");
+                tableList.add("TPAK");
+            case "Indeks Pembangunan Manusia/IPM":
+                tableList.add("IPM Kota Pekalongan");
+                tableList.add("IPM Sekitar");
         }
         return tableList;
     }

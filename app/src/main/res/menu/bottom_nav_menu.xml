@@ -16,8 +16,8 @@
 <!--        android:id="@+id/navigation_berita"-->
 <!--        android:icon="@drawable/ic_news"-->
 <!--        android:title="Berita" />-->
-    <item
-        android:id="@+id/navigation_login"
-        android:icon="@drawable/ic_login"
-        android:title="Admin" />
+<!--    <item-->
+<!--        android:id="@+id/navigation_login"-->
+<!--        android:icon="@drawable/ic_login"-->
+<!--        android:title="Admin" />-->
 </menu>

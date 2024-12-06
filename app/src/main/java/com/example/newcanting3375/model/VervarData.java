@@ -8,16 +8,8 @@ public class VervarData {
         return val;
     }
 
-    public void setVal(int val) {
-        this.val = val;
-    }
-
     public String getLabel() {
         return label;
-    }
-
-    public void setLabel(String label) {
-        this.label = label;
     }
 }
 
